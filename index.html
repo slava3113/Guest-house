@@ -10,10 +10,193 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
 </head>
 
 <body>
+  <header class="header">
+    <div class="header__inner">
+      <div class="container">
+        <div class="header__top">
+          <a class="logo" href="#">
+            <img class="logo__img" src="images/logo.svg" alt="логотип" width="128" height="45" />
+          </a>
 
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Start</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Contact</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Our history</a>
+              </li>
+            </ul>
+          </nav>
+
+          <button class="menu__btn" type="submit">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="18" fill="none">
+              <path d="M0 0H30V2H0V0Z" fill="black"></path>
+              <path d="M0 8H30V10H0V8Z" fill="black"></path>
+              <rect y="16" width="30" height="2" fill="black"></rect>
+            </svg>
+          </button>
+
+          <botton class="menu__button" type="submit">
+            <a href="#">Book now</a>
+          </botton>
+        </div>
+      </div>
+
+      <div class="header__content-inner">
+        <div class="container">
+          <img class="big__logo" src="images/big__logo.svg" alt="big logo">
+          <h1 class="header__title">
+            Experience the perfect combination of modern housing & natural scenery.
+            <span>Located in Lofoten, norway</span>
+          </h1>
+
+          <div class="header__box">
+            <a class="header__link" href="#artwork">
+              <svg width="60" height="65" viewbox="0 0 60 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M46.875 39.375C46.875 48.6562 39.2812 56.25 30 56.25C20.7188 56.25 13.125 48.6562 13.125 39.375V20.625C13.125 11.3438 20.7188 3.75 30 3.75C39.2812 3.75 46.875 11.3438 46.875 20.625V39.375Z"
+                  stroke="white" stroke-width="2" stroke-miterlimit="10" />
+                <line x1="30" y1="13" x2="30" y2="23" stroke="white" stroke-width="2" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <section class="info">
+    <div class="container">
+      <div class="border__top"></div>
+
+      <div class="info__content">
+        <div class="info__left">
+          The Guest House is the perfect weekend get-away housing. Located in the Norwegian archipelago, Lofoten, it's a
+          great escape from the hustle and bustle of the city. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Nullam scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex,
+          condimentum dapibus congue et, vulputate ut ligula.
+        </div>
+        <div class="info__right">
+          Below you'll find information about the accommodation and what's included in the price. Don't hesitate to
+          reach out to us vi the contact page if you have any questions around your stay.
+          <button class="btn__color">Book now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="slogan">
+    <div class="container">
+      <div class="border__top"></div>
+      <div class="slogan__title">
+        The Guest House is the perfect weekend getaway cabin.
+      </div>
+    </div>
+    <img class="slogan__img" src="images/slogan.jpg" alt="">
+  </section>
+
+  <section class="conditions">
+    <div class="container">
+      <div class="border__top"></div>
+      <h2 class="conditions__title">Sleeping arrangements.</h2>
+      <div class="conditions__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam
+        odio et faucibus. Nulla rhoncus feugiat eros quis consectetur.</div>
+      <div class="conditions__box">
+
+        <div class="conditions__item">
+          <img class="conditions__img" src="images/svg/bed.svg" alt="">
+          <p class="conditions__name">Beds</p>
+          <span class="conditions__span">The cabin is equipped with 12 beds, 4 of which are in bunk. The rent includes
+            linens for all
+            beds.</span>
+        </div>
+
+        <div class="conditions__item">
+          <img class="conditions__img" src="images/svg/door.svg" alt="">
+          <p class="conditions__name">Bedrooms</p>
+          <span class="conditions__span">Spread out over two floors, the cabin offers 4 bedrooms. Ranging from 2 to 4
+            beds per room.</span>
+        </div>
+
+        <div class="conditions__item">
+          <img class="conditions__img" src="images/svg/shower.svg" alt="">
+          <p class="conditions__name">Bathrooms</p>
+          <span class="conditions__span">The cabin has three bathrooms, all equipped with showers and one with a bath
+            tub,</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="escape">
+    <div class="container">
+      <div class="border__left"></div>
+      <h2 class="escape__title">The perfect escape.</h2>
+      <p class="escape__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio
+        et faucibus. Nulla rhoncus feugiat eros quis consectetur.</p>
+      <div class="escape__box">
+
+        <div class="escape__item">
+          <div class="escape__block">
+          <img class="escape__img" src="images/svg/1.svg" alt="">
+          <p class="escape__descr">Modern Kitchen Appliances
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+            </p>
+          </div>
+          <div class="escape__block">
+          <img class="escape__img" src="images/svg/2.svg" alt="">
+          <p class="escape__descr">Outdoor Paths
+            <span> Nulla rhoncus feugiat eros quis consectetur.</span>
+           </p>
+          </div>
+          <div class="escape__block">
+          <img class="escape__img" src="images/svg/3.svg" alt="">
+          <p class="escape__descr">Coffee Maker
+            <span>Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.</span></p>
+          </div>
+          <div class="escape__block">
+          <img class="escape__img" src="images/svg/4.svg" alt="">
+          <p class="escape__descr">Natural Scenery
+           <span> Cras commodo consequat orci, in convallis risus egestas non</span>
+          </p>
+            </div>
+        </div>
+
+        <div class="escape__item">
+          <div class="escape__block">
+          <img class="escape__img" src="images/svg/5.svg" alt="">
+          <p class="escape__descr">Air Conditioner
+            <span>Nullam scelerisque aliquam odio et faucibus.</span></p>
+          </div>
+          <div class="escape__block">
+          <img class="escape__img" src="images/svg/6.svg" alt="">
+          <p class="escape__descr">Storage Solutions
+            <span>Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.</span></p>
+          </div>
+          <div class="escape__block">
+          <img class="escape__img" src="images/svg/7.svg" alt="">
+          <p class="escape__descr">Cutlery Selection
+           <span> Duis tristique sed lorem a vestibulum.</span></p>
+          </div>
+          <div class="escape__block">
+          <img class="escape__img" src="images/svg/8.svg" alt="">
+          <p class="escape__descr">Take-away Options
+            <span>Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.</span></p>
+           </div> 
+        </div>
+
+      </div>
+    </div>
+  </section>
 
 
 
