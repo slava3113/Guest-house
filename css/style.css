@@ -279,3 +279,122 @@ body {
 .escape__descr span {
   display: block;
 }
+
+.guests {
+  background-color: #faf8f0;
+  padding: 100px 0 150px 0;
+}
+
+.guests__title {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+  color: #52503b;
+  margin: 30px 0 15px 0;
+}
+.guests__text {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #52503b;
+  margin: 0 auto;
+  max-width: 600px;
+}
+.reviews__slider {
+  margin-top: 32px;
+  display: flex;
+}
+
+.reviews__item {
+  width: 584px;
+  height: 266px;
+  background-color: #ffffff;
+  padding: 31px;
+  margin-left: 20px;
+  position: relative;
+}
+
+.reviews__star {
+  display: flex;
+  margin-bottom: 9px;
+}
+
+.reviews__title {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #333333;
+}
+.reviews__text {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  margin-top: 10px;
+  max-width: 506px;
+}
+
+.reviews__autor {
+  position: relative;
+  margin-top: 19px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  margin-left: 10px;
+}
+
+.reviews__autor::before {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 2px;
+  background-color: #e08631;
+  left: -10px;
+}
+
+.slick-slide {
+  max-width: 584px;
+}
+
+.slick-prev:before {
+  content: "" !important;
+}
+
+.slick-next:before {
+  content: "" !important;
+}
+
+.slick-next::before {
+  content: "";
+  display: block;
+  right: 80px;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #52503b;
+  cursor: pointer;
+  bottom: -200px;
+  border-radius: 50%;
+  font-family: "slick";
+}
+
+.slick-prev::before {
+  content: "";
+  display: block;
+  left: 1180px;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #52503b;
+  cursor: pointer;
+  bottom: -200px;
+  border-radius: 50%;
+}
